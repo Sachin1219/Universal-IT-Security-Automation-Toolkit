@@ -1,0 +1,114 @@
+# ================================
+# 🌐 General
+# ================================
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
+
+# ================================
+# 💻 Python
+# ================================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.venv
+ENV/
+env/
+venv/
+*.env
+*.db
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+.pyre/
+
+# ================================
+# 🐘 MySQL Dumps
+# ================================
+*.sql
+*.dump
+
+# ================================
+# ⚙️ PowerShell / Bash
+# ================================
+*.ps1~
+*.sh~
+*.ps1.xml
+*.bash_history
+*.bashrc
+*.zshrc
+*.config/
+
+# ================================
+# ☁️ Cloud / Docker / Kubernetes
+# ================================
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.pem
+*.crt
+*.key
+*.kube/
+.kube/
+secrets.yaml
+
+# Docker
+Dockerfile.*
+docker-compose.*
+*.tar
+*.img
+
+# Kubernetes manifests
+*.yaml
+*.yml
+
+# ================================
+# 🛠 IDEs & Editors
+# ================================
+# VSCode
+.vscode/
+.code-workspace
+*.code-workspace
+
+# PyCharm / IntelliJ / JetBrains
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# ================================
+# 📦 Node/Frontend (if used)
+# ================================
+node_modules/
+*.lock
+*.bundle.js
+*.min.js
+npm-debug.log
+
+# ================================
+# 🔒 Sensitive Files
+# ================================
+*.pem
+*.crt
+*.key
+secrets.*
+config.*
+credentials.*
+token.*
+apikey.*
+auth.json
